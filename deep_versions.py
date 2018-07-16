@@ -1,3 +1,6 @@
+import os
+os.environ["MKL_THREADING_LAYER"] = "GNU"
+
 # theano
 import theano
 print('theano: %s' % theano.__version__)
